@@ -1,7 +1,7 @@
 # FashionMNIST
 Image Classification on FashionMNIST dataset
 CNN based model for image classification on Fashion-MNIST dataset. Best test accuracy - 94.55 percent. Regularization methods like Dropout, L2 regularization, Data Augmentation and Batch Normalization have been explored.
-This code supports python3, keras and tensorflow-v1 and runs on GPU and CPU machines. 
+This code supports python3, keras and tensorflow-v1 and runs on GPU and CPU machines. Please note that checkpoint of model trained on GPU cannot be used for inference on CPU.
 
 For SmallNet model training, 
 
